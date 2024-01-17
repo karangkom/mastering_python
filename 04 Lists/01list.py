@@ -49,7 +49,7 @@ myList6 = [1, 2, 3]
 """
                0  1  2  etc
             ------------
-    myList3 = [1, 2, 3]
+    myList6 = [1, 2, 3]
             ------------
         etc   -3 -2 -1
 """
@@ -65,13 +65,13 @@ print()
 # 5. Removing items
 # a. Using empty list
 myList7 = [10, 1, 'dua', 200, 4.5, True, 'Hello World']
-# myTuple7[3] = [] # we can't remove the item by using this
+# myList7[3] = [] # we can't remove the item by using this
 myList7[:1] = []
 print(myList7)
 myList7[1:3] = []
 print(myList7)
-# myTuple7[2:2] = [] # we can't remove the item by using this
-# print(myTuple7)
+myList7[2:2] = [] # we can't remove the item by using this
+print(myList7)
 
 # b. Using del keyword
 # we can also remove items using del keyword
@@ -128,8 +128,9 @@ print()
 
 # 8. List reference
 data3 = [10, 'dua', 200, 'Hello World']
-z = data3 # z will be a reference to data3
+z = data3 # z will be a reference to data3 (copy by reference)
 # z = data3[:]  # with colon mark, z will not be a reference to data3
-z[2] = 8 # changes made in z, will automatically also be made in data3
+z[2] = 8 # every change in the 'z' is automatically seen in 'data3' as well
 print(data3)
 print(z)
+print(z == data3) # True
