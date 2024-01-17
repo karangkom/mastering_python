@@ -99,7 +99,7 @@ print(6 & 7) # each operands convert to the binaries
 print(5 | 9)
 """ Sets each bit to 1 if one of two bits is 1
 5 = 00000101
-8 = 00001001 |
+9 = 00001001 |
     00001101 = 13
 """
 
