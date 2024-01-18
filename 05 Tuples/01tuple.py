@@ -13,17 +13,17 @@ print(type(myTuple4))
 print()
 
 # 2. Access elements (items) and slicing
-myTuple4 = [10, 1, 'dua', 200, 4.5, True, 'Hello World']
+myTuple4 = (10, 1, 'dua', 200, 4.5, True, 'Hello World')
 """
-               0  1    2     3    4    5          6       etc
+             0  1    2     3    4    5          6       etc
             ----------------------------------------------
- myTuple4 = [10, 1, 'dua', 200, 4.5, True, 'Hello World']
+myTuple4 = (10, 1, 'dua', 200, 4.5, True, 'Hello World')
             ----------------------------------------------
-        etc   -7  -6    -5   -4   -3    -2       -1
+        etc -7  -6    -5   -4   -3    -2       -1
+"""
 
-"""
 # We can access tuple items by referring to the index number, inside square brackets
-print(myTuple4[0])  # using index to access the list items. the index is start from 0
+print(myTuple4[0])  # using index to access the tuple items. the index is start from 0
 print(myTuple4[0:5])  # by a colon, get the characters start from position 0 to position 5 (position 5 not included)
 print(myTuple4[1:6])  # get the characters start from position 1 to position 6 (position 6 not included)
 print(myTuple4[-4])  # negative indexes is start from -1
