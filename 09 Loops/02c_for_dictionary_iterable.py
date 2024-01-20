@@ -11,6 +11,11 @@ idData1 = {
 for i in idData1:
     print(i)
 
+# or
+# print(idData1.keys())
+# for i in idData1.keys():
+#     print(i)
+
 print('-' * 100)
 
 # Sample 2 (Value)
@@ -23,6 +28,11 @@ idData2 = {
 
 for j in idData2:
     print(idData2[j])
+
+# or
+# print(idData2.values())
+# for j in idData2.values():
+#     print(j)
 
 print('-' * 100)
 
