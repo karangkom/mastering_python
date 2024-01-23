@@ -1,12 +1,12 @@
 """
 ARGUMENT:
-Information can be passed inside functions using arguments in the parentheses. We can add many arguments as we want,
-just separate them with a comma.
+Some information can be pass inside the function by using argument in the function parentheses. We can add many arguments as we want,
+just separate them with comma.
 """
 
 """
 Positional Arguments:
-These are variables (identifiers) that values of arguments passed into function by their position in the function call
+The variable (identifier) values of arguments, passed into function based on their position in the function call
 """
 
 # Sample 1 (One argument)
@@ -22,9 +22,9 @@ hello('rahmat')
 
 """
 Sample 1 notes:
-- A parameters is the variables (identifiers) listed inside the parentheses in the function definition.
-- An arguments is the values that are passed into the function when it is called.
-- If count of arguments and parameters don’t match, interpreter will throw TypeError exception
+- Parameter is the variable (identifier) listed inside the parentheses in the function definition.
+- Argument is the value that passed into the function when it is called.
+- We can put multiple or more than one argument in a function. If the number between argument and parameter not same, the interpreter will throw TypeError exception
 """
 
 print('-' * 100)
@@ -47,8 +47,7 @@ hello('evening', 'fitri')
 """
 Sample 2 notes:
 - By default, a function must be called with the correct position and values of arguments.
-- If we try to call the function with more or less than number in parameter (count of arguments and parameters don’t 
-match), we will get an error
+- The number between argument and parameter should be same
 """
 
 print('-' * 100)
@@ -72,10 +71,10 @@ print('-' * 100)
 def chickenPrice(kg):
     price = 20000
     totalPrice = kg * price
-    print(f'Total chicken price of {kg} kilos is, Rp. {totalPrice}')
+    print(f'Total chicken meat price for {kg} kilos is, Rp. {totalPrice}')
 
 
-print("Chicken Price in a Kg is Rp. 20000")
+print("Chicken meat price in a Kg is Rp. 20000")
 chickenPrice(int(input('Input kilos: ')))
 
 print('-' * 100)
@@ -139,7 +138,7 @@ def items(a):
 
 
 def main():
-    list1 = items(int(input('How many items of list that you want?: ')))
+    list1 = items(int(input('How many item of list that you want?: ')))
 
 
 main()
