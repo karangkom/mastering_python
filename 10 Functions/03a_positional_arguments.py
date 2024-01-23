@@ -38,6 +38,7 @@ hello('morning', 'saddam')  # (arguments)
 hello('day', 'rahmat')
 hello('afternoon', 'fuad')
 hello('evening', 'fitri')
+hello('jojo', 'morning') # mistake position in positional arguments
 
 # Invalid arguments:
 # hello()
